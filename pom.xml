@@ -52,18 +52,7 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-         // Insert this block
-          <dependency>
-             <groupId>org.springframework.boot</groupId>
-             <artifactId>spring-boot-starter-tomcat</artifactId>
-           <scope>provided</scope>
-          </dependency>
-             </dependencies>
+        
 
     <repositories>
         <repository>
